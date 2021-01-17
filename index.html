@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- font-awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+<body>
+    <section class="data">
+        <section class="row m-0 mt-3">
+            <section class="col-6 p-4 offset-3" style="background-color: lightskyblue">
+                <h3 class="text-center p-3">Todo App</h3>
+                <form action="#" method="post" id="form-task">
+                    <section class="form-group">
+                        <input type="text" placeholder="Enter somthing..." class="form-control" id="input-task" style="border:2px inset lightgary">
+                    </section>
+                    <section class="form-group">
+                        <input type="submit"  value="Add"  class="btn btn-success btn-block text-dark" style="font-weight:bold">
+                    </section>
+                </form>
+            </section>
+        </section>
+        <!--getsmati ke dataharo mizram tush-->
+        <section class="row m-0">
+            <section class="col-6 offset-3 p-3 mt-2 bg-info">
+                <h3 class="text-center mb-2">Filter Todos</h3>
+                <section class="form-group mb-4">
+                    <input type="text" placeholder="serach here..." id="filter" class="form-control" style="border: 2px inset lightgary">
+                </section>
+                <h3 class="text-center mt-2 mb-3">Todos List</h3>
+                <ul class="list-group">
+                </ul>
+                <button id="clear" class="btn btn-danger btn-block text-dark"><b>clear</b></button>
+            </section>
+        </section>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
